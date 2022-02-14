@@ -1,0 +1,29 @@
+# index
+Index and main public page
+
+
+## Requirements
+
+The ones for Antora: https://docs.antora.org/antora/latest/install-and-run-quickstart/
+
+Install node: https://github.com/nvm-sh/nvm#installation-and-update
+
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+
+npm install -g npm@8.5.0
+
+nvm install --lts
+
+mkdir docs-site && cd docs-site
+
+node -e "fs.writeFileSync('package.json', '{}')"
+
+npm i -D -E @antora/cli@3.0.0 @antora/site-generator@3.0.0
+
+npx antora -v
+
+Create antora-playbook.yml
+
+npx antora --fetch antora-playbook.yml
+
+firefox build/site/index.html 
