@@ -27,3 +27,7 @@ Create antora-playbook.yml
 npx antora --fetch antora-playbook.yml
 
 firefox build/site/index.html 
+
+create docs folder in child project, with the structure defined in https://docs.antora.org/antora/latest/standard-directories/
+
+Create links to source code included in the docs to the docs/modules/ROOT/examples folder. To the files if few are used, or to the src folder if lots are referenced.
