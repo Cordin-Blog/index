@@ -1,6 +1,6 @@
 ## Antora
 
-/build/
-/node_modules/
-/public/
+build/
+node_modules/
+public/
 
