@@ -1,12 +1,10 @@
 site:
   title: Cèsar Ordiñana's Blog
-  start_page: component-b::index.adoc 
+  start_page: spring-boot-clickhouse-howto::index.adoc 
 content:
   sources: 
-  - url: https://gitlab.com/antora/demo/demo-component-a.git
-    branches: HEAD
-  - url: https://gitlab.com/antora/demo/demo-component-b.git
-    branches: [v2.0, v1.0]
+  - url: https://github.com/Cordin-Blog/spring-boot-clickhouse-howto.git
+    branches: [v1.0.x]
     start_path: docs
 ui: 
   bundle:
